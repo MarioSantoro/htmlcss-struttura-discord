@@ -110,3 +110,30 @@ section.lightgray >div.cyan-pink > div.cyan{
     width: 70%;
     background-color: green;
 }
+
+
+section.blue-turquoise{
+    background-color: #23272a;
+    padding-top: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 50px;
+}
+
+section.blue-turquoise > .coral-turquoise{
+    width: 70%;
+    height: 500px;
+}
+
+section.blue-turquoise > div.coral-turquoise > div.coral{
+    height: 100%;
+    width: 40%;
+    background-color: #f08080;
+    border: 2px dashed black;
+}
+
+section.blue-turquoise > div.coral-turquoise > div.turquoise{
+    height: 100%;
+    width: calc(100% / 4);
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
