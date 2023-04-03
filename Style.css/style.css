@@ -104,3 +104,9 @@ section.lightgray{
 section.lightgray >div.cyan-pink > div.cyan{
     order: 2;
 }
+
+.green{
+    height: 900px;
+    width: 70%;
+    background-color: green;
+}
