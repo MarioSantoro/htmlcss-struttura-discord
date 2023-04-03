@@ -5,6 +5,42 @@
     box-sizing: border-box;
 }
 
+                    /* CLASSI GENERALI */
+
+/* Classe per il centraggio orizzontale delle box */
+.center-side{
+    margin-left:400px;
+    margin-right:400px ;
+}
+
+/* Classe per il centraggio verticale delle box */
+.center-top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Classe per aggiungere il bordo */
+.border{
+    border: 2px dashed black;
+}
+
+/* Classe per aggiungere padding agli item nel nav */
+.padding{
+    padding: 10px;
+}
+
+/* Classe per aggiungere un with ai lati del nav */
+.side{
+    width: 20%;
+}
+
+/* Classe generale per il flex */
+.flex{
+    display: flex;
+}
+
+                    /* CSS */
+
 body{
     font-family: Arial, Helvetica, sans-serif
 }
@@ -20,34 +56,11 @@ nav{
     border: 3px dashed black;
 }
 
-.center-side{
-    margin-left:400px;
-    margin-right:400px ;
-}
-
-.center-top{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.border{
-    border: 2px dashed black;
-}
-
-.center-flex{
-    justify-content:center;
-    align-items: center;
-}
-
 nav > ul{
     list-style-type: none;
     width: 60%;
     justify-content: center;
     gap: 10px;
-}
-
-.padding{
-    padding: 10px;
 }
 
  nav > .logo{
@@ -59,17 +72,12 @@ nav >.login{
     text-align: end ;
 }
 
-.side{
-    width: 20%;
-}
-
-.flex{
-    display: flex;
-}
 
 section.blue{
     background-color: #00008b;
     border-bottom: 3px solid #add8e6;
+    justify-content:center;
+    align-items: center;
 }
 
 section.blue > .violet{
@@ -105,7 +113,7 @@ section.lightgray >div.cyan-pink > div.cyan{
     order: 2;
 }
 
-.green{
+section.lightgray > div.green{
     height: 900px;
     width: 70%;
     background-color: green;
