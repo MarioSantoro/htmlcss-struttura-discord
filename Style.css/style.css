@@ -80,19 +80,27 @@ section.blue > .violet{
     border-radius: 10px;
 }
 
-section.white > .cian-pink{
+.cyan-pink{
     height: 450px;
-    width: 60%;
+    width: 70%;
 }
 
-section.white > div.cyan-pink > div.cyan{
+div.cyan-pink > div.cyan{
     width: 60%;
     height: 100%;
     background-color: #1e90ff;
 }
 
-section.white > div.cyan-pink > div.pink{
+div.cyan-pink > div.pink{
     width: 40%;
     height: 100%;
     background-color: #ffc0cb;
+}
+
+section.lightgray{
+    background-color: lightgray;
+}
+
+section.lightgray >div.cyan-pink > div.cyan{
+    order: 2;
 }
