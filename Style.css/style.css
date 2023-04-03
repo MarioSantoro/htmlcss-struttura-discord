@@ -5,10 +5,13 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
+
 header{
     background-color: #add8e6;
     padding-top:20px;
-    height: 500px;
 }
 
 nav{
@@ -17,12 +20,17 @@ nav{
     border: 3px dashed black;
 }
 
-.center{
-    margin-left:300px;
-    margin-right:300px ;
+.center-side{
+    margin-left:400px;
+    margin-right:400px ;
 }
 
-ul{
+.center-top{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+nav > ul{
     list-style-type: none;
     width: 60%;
     justify-content: center;
@@ -33,11 +41,11 @@ ul{
     padding: 10px;
 }
 
-.logo{
+ nav > .logo{
     border-right: 3px dashed black;
 }
 
-.login{
+nav >.login{
     border-left: 3px dashed black;
     text-align: end ;
 }
@@ -45,6 +53,22 @@ ul{
 .side{
     width: 20%;
 }
+
 .flex{
     display: flex;
+}
+
+section.blue{
+    background-color: #00008b;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 3px solid #add8e6;
+}
+
+section.blue > .violet{
+    height: 350px;
+    width: 850px;
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    border-radius: 10px;
 }
