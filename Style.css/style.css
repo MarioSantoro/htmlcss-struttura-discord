@@ -6,12 +6,20 @@
 }
 
 header{
-    height: 500px;
     background-color: #add8e6;
+    padding-top:20px;
+    height: 500px;
 }
 
 nav{
     background-color: #daa520;
+    margin-bottom:20px;
+    border: 3px dashed black;
+}
+
+.center{
+    margin-left:300px;
+    margin-right:300px ;
 }
 
 ul{
@@ -19,6 +27,19 @@ ul{
     width: 60%;
     justify-content: center;
     gap: 10px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.logo{
+    border-right: 3px dashed black;
+}
+
+.login{
+    border-left: 3px dashed black;
+    text-align: end ;
 }
 
 .side{
