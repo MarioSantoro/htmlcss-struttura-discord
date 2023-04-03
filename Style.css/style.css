@@ -30,6 +30,15 @@ nav{
     padding-bottom: 50px;
 }
 
+.border{
+    border: 2px dashed black;
+}
+
+.center-flex{
+    justify-content:center;
+    align-items: center;
+}
+
 nav > ul{
     list-style-type: none;
     width: 60%;
@@ -60,8 +69,6 @@ nav >.login{
 
 section.blue{
     background-color: #00008b;
-    justify-content:center;
-    align-items: center;
     border-bottom: 3px solid #add8e6;
 }
 
@@ -69,6 +76,23 @@ section.blue > .violet{
     height: 350px;
     width: 850px;
     background-color: #ee82ee;
-    border: 2px dashed black;
+    
     border-radius: 10px;
+}
+
+section.white > .cian-pink{
+    height: 450px;
+    width: 60%;
+}
+
+section.white > div.cyan-pink > div.cyan{
+    width: 60%;
+    height: 100%;
+    background-color: #1e90ff;
+}
+
+section.white > div.cyan-pink > div.pink{
+    width: 40%;
+    height: 100%;
+    background-color: #ffc0cb;
 }
