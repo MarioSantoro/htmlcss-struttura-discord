@@ -9,8 +9,7 @@
 
 /* Classe per il centraggio orizzontale delle box */
 .center-side{
-    margin-left:400px;
-    margin-right:400px ;
+   margin: auto;
 }
 
 /* Classe per il centraggio verticale delle box */
@@ -47,13 +46,14 @@ body{
 
 header{
     background-color: #add8e6;
-    padding-top:20px;
+    padding-top: 10px;
 }
 
 nav{
     background-color: #daa520;
-    margin-bottom:20px;
     border: 3px dashed black;
+    width: 70%;
+    margin:0px auto 10px auto;
 }
 
 nav > ul{
